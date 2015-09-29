@@ -1,6 +1,6 @@
 # GPO 2.0 Redesign Bid
 
-### User Stories
+#### User Stories
 
 [![Stories in Ready](https://badge.waffle.io/CRGTMobile/gpo-redesign.png?label=ready&title=Ready)](http://waffle.io/CRGTMobile/gpo-redesign)
 [![Stories in Progress](https://badge.waffle.io/CRGTMobile/gpo-redesign.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/CRGTMobile/gpo-redesign)
