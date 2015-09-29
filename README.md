@@ -11,6 +11,19 @@
 
 * [Try Git](https://try.github.io)
 
+## Installation ~~ _in progress_
+
+1. [Install SQL Server 2014](http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx)
+> This download will require a Microsoft account (free). Choose all the default installation options.
+
+2. [Install Sitefinity](http://www.sitefinity.com/try-now/download)
+3. Open the Telerik Sitefinity Project Manager
+4. Select "Create a New Project"
+
+ * Project Name: GPO
+ * Already activated licenses: Enterprise (trial)
+ * (x) Open the administration of this project to add content or change settings
+
 ## Reference
 
 * [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
