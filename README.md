@@ -13,7 +13,7 @@
 
 ## Installation ~~ _in progress_
 
-1. [Install SQL Server 2014](http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx)
+1. [Install SQL Server 2014 Express](http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx)
 > This download will require a Microsoft account (free). Choose all the default installation options.
 
 2. [Install Sitefinity](http://www.sitefinity.com/try-now/download)
