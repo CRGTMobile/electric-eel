@@ -1,14 +1,14 @@
-# GPO 2.0 Redesign Bid
+# Redesign Bid
 
 #### User Stories
 
-[![Stories in Ready](https://badge.waffle.io/CRGTMobile/gpo-redesign.png?label=ready&title=Ready)](http://waffle.io/CRGTMobile/gpo-redesign)
-[![Stories in Progress](https://badge.waffle.io/CRGTMobile/gpo-redesign.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/CRGTMobile/gpo-redesign)
+[![Stories in Ready](https://badge.waffle.io/CRGTMobile/electric-eel.png?label=ready&title=Ready)](http://waffle.io/CRGTMobile/electric-eel)
+[![Stories in Progress](https://badge.waffle.io/CRGTMobile/electric-eel.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/CRGTMobile/electric-eel)
 
 ## Developer onboarding
 1. [Sign up at crgt.slack.com](http://crgt.slack.com/signup) and join the [#4840West-eel](https://crgt.slack.com/messages/4840west-eel) group
 1. Make a [Github account](https://github.com/join)  and post your username on slack so I can add you to the repository
-1. Sign into [Waffle](https://waffle.io) with your github account.
+1. Sign into [Waffle](https://waffle.io) with your github account and open the [story board](http://waffle.io/CRGTMobile/electric-eel).
 1. [Turn off github email notifications](https://github.com/settings/notifications) under "Watching". These notifications are shown in Slack.
 
 ## Learn
