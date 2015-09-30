@@ -7,8 +7,9 @@
 
 ## Developer onboarding
 1. [Sign up at crgt.slack.com](http://crgt.slack.com/signup) and join the [#4840West-eel](https://crgt.slack.com/messages/4840west-eel) group
-1. Make a [Github](github.com) account and post your username on slack so I can add you to the repository
+1. Make a [Github account](https://github.com/join)  and post your username on slack so I can add you to the repository
 1. Sign into [Waffle](https://waffle.io) with your github account.
+1. [Turn off github email notifications](https://github.com/settings/notifications) under "Watching". These notifications are shown in Slack.
 
 ## Learn
 
