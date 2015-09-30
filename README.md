@@ -5,7 +5,10 @@
 [![Stories in Ready](https://badge.waffle.io/CRGTMobile/gpo-redesign.png?label=ready&title=Ready)](http://waffle.io/CRGTMobile/gpo-redesign)
 [![Stories in Progress](https://badge.waffle.io/CRGTMobile/gpo-redesign.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/CRGTMobile/gpo-redesign)
 
-* [Slack](https://crgt.slack.com/messages/4840west-3)
+## Developer onboarding
+1. [Sign up at crgt.slack.com](http://crgt.slack.com/signup) and join the [#4840West-eel](https://crgt.slack.com/messages/4840west-eel) group
+1. Make a [Github](github.com) account and post your username on slack so I can add you to the repository
+1. Sign into [Waffle](https://waffle.io) with your github account.
 
 ## Learn
 
