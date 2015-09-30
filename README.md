@@ -21,7 +21,9 @@
 > This download will require a Microsoft account (free). Choose all the default installation options.
 
 1. [Install Visual Studio Community 2013](http://go.microsoft.com/fwlink/?LinkId=517284)
+
 2. [Install Sitefinity](http://www.sitefinity.com/try-now/download)
+
 3. Open the Telerik Sitefinity Project Manager
 4. Select "Create a New Project"
 
