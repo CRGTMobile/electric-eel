@@ -25,12 +25,11 @@
 
 2. [Install Sitefinity](http://www.sitefinity.com/try-now/download)
 
-3. Open the Telerik Sitefinity Project Manager
-4. Select "Create a New Project"
+1. Check out this repository to a folder on your computer
 
- * Project Name: GPO
- * Already activated licenses: Enterprise (trial)
- * (x) Open the administration of this project to add content or change settings
+1. Open Web > SitefinityWebApp.csproj in Visual Studio
+
+1. Click Run in Chrome
 
 ## Reference
 
