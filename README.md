@@ -15,7 +15,7 @@
 
 * If you are new to git, take the [15 minute git tutorial](https://try.github.io).
 
-## Installation ~~ _in progress_
+## Installation
 
 1. [Install SQL Server 2014 Express](http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx)
 > This download will require a Microsoft account (free). Choose all the default installation options.
