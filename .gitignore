@@ -11,3 +11,7 @@
 */App_Data/Sitefinity/Logs/
 */App_Data/Sitefinity/Search/
 */App_Data/Sitefinity/Temp/
+
+# database files
+*/App_Data/*.mdf
+*/App_Data/*.ldf
