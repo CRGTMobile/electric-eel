@@ -23,7 +23,7 @@
 1. [Install Visual Studio Community 2013](http://go.microsoft.com/fwlink/?LinkId=517284)
 > Ensure "Web Developer Tools" is checked during install
 
-2. [Install Sitefinity](http://www.sitefinity.com/try-now/download)
+2. [Install Sitefinity and Sitefinity Thunder](http://www.sitefinity.com/try-now/download)
 
 1. Check out this repository to a folder on your computer
 
