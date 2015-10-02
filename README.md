@@ -27,6 +27,8 @@
 
 1. Check out this repository to a folder on your computer
 
+1. Extract the files from …/Backups/Backups.zip into …/Web/App_Data/
+
 ## Run
 
 1. On the Start menu, point to All Programs, point to Microsoft SQL Server 2014, point to Configuration Tools, and then click SQL Server Configuration Manager.
