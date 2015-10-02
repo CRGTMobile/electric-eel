@@ -35,7 +35,7 @@
 1. In SQL Server Configuration Manager, in the left pane, click SQL Server Services.
 1. In the details pane, right-click SQL Server (MSSQLServer), and then click Start.
 1. Open Web > SitefinityWebApp.csproj in Visual Studio
-1. Click Run in Chrome or open (localhost:60876)[http://localhost:60876/] for the frontend or (localhost:60876/sitefinity)[http://localhost:60876/sitefinity] for the administration dashboard
+1. Click Run in Chrome or open [localhost:60876](http://localhost:60876/) for the frontend or [localhost:60876/sitefinity](http://localhost:60876/sitefinity) for the administration dashboard
 
 ## Troubleshooting
 
