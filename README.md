@@ -37,6 +37,14 @@
 
 * Install Windows update for [Windows Identity Foundation (KB974405)](http://www.microsoft.com/en-us/download/details.aspx?id=17331)
 
+> Could not load file or assembly 'Telerik.Sitefinity' or one of its dependencies. The system cannot find the file specified.
+
+* The /bin folder may have been droped by Visual Studio.  Try pulling it back in from Git. [REF](http://www.sitefinity.com/developer-network/forums/deployment--/could-not-load-file-or-assembly-telerik-sitefinity-or-one-of-its-dependencies)
+
+> An attempt to attach an auto-named database for file …\Web\App_Data\Sitefinity.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.
+
+* Extract the files from …/Backups/Backups.zip into …/Web/App_Data/
+
 ## Reference
 
 * [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
