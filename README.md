@@ -31,6 +31,12 @@
 
 1. Click Run in Chrome
 
+## Troubleshooting
+
+> Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+
+* Install Windows update for [Windows Identity Foundation (KB974405)](http://www.microsoft.com/en-us/download/details.aspx?id=17331)
+
 ## Reference
 
 * [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
