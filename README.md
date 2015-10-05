@@ -37,6 +37,8 @@
 1. Open Web > SitefinityWebApp.csproj in Visual Studio
 1. Click Run in Chrome or open [localhost:60876](http://localhost:60876/) for the frontend or [localhost:60876/sitefinity](http://localhost:60876/sitefinity) for the administration dashboard
 
+> The admin login is username: ``admin``, password: ``password``
+
 ## Troubleshooting
 
 > Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
