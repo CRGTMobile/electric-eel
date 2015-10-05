@@ -4,6 +4,7 @@
 
 [![Stories in Ready](https://badge.waffle.io/CRGTMobile/electric-eel.png?label=ready&title=Ready)](http://waffle.io/CRGTMobile/electric-eel)
 [![Stories in Progress](https://badge.waffle.io/CRGTMobile/electric-eel.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/CRGTMobile/electric-eel)
+[![Stories To Test](https://badge.waffle.io/CRGTMobile/electric-eel.svg?label=to%20test&title=To%20Test)](http://waffle.io/CRGTMobile/electric-eel)
 
 ## Developer onboarding
 1. [Sign up at crgt.slack.com](http://crgt.slack.com/signup) and join the [#4840West-eel](https://crgt.slack.com/messages/4840west-eel) group
