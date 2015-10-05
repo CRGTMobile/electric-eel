@@ -69,167 +69,167 @@
   <ItemGroup>
     <Reference Include="AjaxControlToolkit, Version=3.0.20820.16598, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\AjaxControlToolkit.dll</HintPath>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="AntiXssLibrary, Version=4.3.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\AntiXssLibrary.dll</HintPath>
+      <HintPath>bin\AntiXssLibrary.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\CsvHelper.dll</HintPath>
+      <HintPath>bin\CsvHelper.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <!-- Dependency for the Telerik.Sitefinity.Audit.ElasticSearch module -->
     <Reference Include="Elasticsearch.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6898cc73000e75ba, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Elasticsearch.Net.dll</HintPath>
+      <HintPath>bin\Elasticsearch.Net.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="LinqToTwitter, Version=2.1.8.0, Culture=neutral, PublicKeyToken=957107be965c25d9, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\LinqToTwitter.dll</HintPath>
+      <HintPath>bin\LinqToTwitter.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.SharePoint.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.SharePoint.Client.dll</HintPath>
+      <HintPath>bin\Microsoft.SharePoint.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
+      <HintPath>bin\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MonAgentListener, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\MonAgentListener.dll</HintPath>
+      <HintPath>bin\MonAgentListener.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Nest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6898cc73000e75ba, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Nest.dll</HintPath>
+      <HintPath>bin\Nest.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Newtonsoft.Json.dll</HintPath>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DirectShowLib-2005, Version=2.1.0.0, Culture=neutral, PublicKeyToken=67e7b740cdfc2d3f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\DirectShowLib-2005.dll</HintPath>
+      <HintPath>bin\DirectShowLib-2005.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\DocumentFormat.OpenXml.dll</HintPath>
+      <HintPath>bin\DocumentFormat.OpenXml.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="HtmlAgilityPack">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\HtmlAgilityPack.dll</HintPath>
+      <HintPath>bin\HtmlAgilityPack.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="HtmlSanitizationLibrary, Version=4.3.0.0, Culture=neutral, PublicKeyToken=d127efab8a9c114f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\HtmlSanitizationLibrary.dll</HintPath>
+      <HintPath>bin\HtmlSanitizationLibrary.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Http, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.Http.dll</HintPath>
+      <HintPath>bin\Microsoft.Http.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.IdentityModel.dll</HintPath>
+      <HintPath>bin\Microsoft.IdentityModel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <HintPath>bin\Microsoft.Practices.ServiceLocation.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.Web.Infrastructure.dll</HintPath>
+      <HintPath>bin\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.WindowsAzure.Diagnostics.dll</HintPath>
+      <HintPath>bin\Microsoft.WindowsAzure.Diagnostics.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.WindowsAzure.ServiceRuntime.dll</HintPath>
+      <HintPath>bin\Microsoft.WindowsAzure.ServiceRuntime.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.WindowsAzure.StorageClient.dll</HintPath>
+      <HintPath>bin\Microsoft.WindowsAzure.StorageClient.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Microsoft.SqlServer.Types.dll</HintPath>
+      <HintPath>bin\Microsoft.SqlServer.Types.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="mysql.data, Version=6.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\MySql.Data.dll</HintPath>
+      <HintPath>bin\MySql.Data.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Ninject.dll</HintPath>
+      <HintPath>bin\Ninject.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="payflow_dotNET">
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\payflow_dotNET.dll</HintPath>
+      <HintPath>bin\payflow_dotNET.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="RazorEngine, Version=3.0.8.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\RazorEngine.dll</HintPath>
+      <HintPath>bin\RazorEngine.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="RazorGenerator.Templating">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\RazorGenerator.Templating.dll</HintPath>
+      <HintPath>bin\RazorGenerator.Templating.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="RedDog.Search">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\RedDog.Search.dll</HintPath>
+      <HintPath>bin\RedDog.Search.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ServiceStack">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\ServiceStack.dll</HintPath>
+      <HintPath>bin\ServiceStack.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ServiceStack.Common">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\ServiceStack.Common.dll</HintPath>
+      <HintPath>bin\ServiceStack.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ServiceStack.Interfaces">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\ServiceStack.Interfaces.dll</HintPath>
+      <HintPath>bin\ServiceStack.Interfaces.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ServiceStack.Text">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\ServiceStack.Text.dll</HintPath>
+      <HintPath>bin\ServiceStack.Text.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ServiceStack.Client">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\ServiceStack.Client.dll</HintPath>
+      <HintPath>bin\ServiceStack.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -259,37 +259,37 @@
     <Reference Include="System.Web.Extensions.Design" />
     <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Web.Helpers.dll</HintPath>
+      <HintPath>bin\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Web.Mvc.dll</HintPath>
+      <HintPath>bin\System.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Web.Razor.dll</HintPath>
+      <HintPath>bin\System.Web.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Web.WebPages.dll</HintPath>
+      <HintPath>bin\System.Web.WebPages.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Web.WebPages.Deployment.dll</HintPath>
+      <HintPath>bin\System.Web.WebPages.Deployment.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Web.WebPages.Razor.dll</HintPath>
+      <HintPath>bin\System.Web.WebPages.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Windows">
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Windows.dll</HintPath>
+      <HintPath>bin\System.Windows.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xaml" />
@@ -297,185 +297,185 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Telerik.DEC.Common.Encryption.Contract">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.DEC.Common.Encryption.Contract.dll</HintPath>
+      <HintPath>bin\Telerik.DEC.Common.Encryption.Contract.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.DigitalExperienceCloud.Client">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.DigitalExperienceCloud.Client.dll</HintPath>
+      <HintPath>bin\Telerik.DigitalExperienceCloud.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.Blogs">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.Blogs.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.Blogs.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.Comments">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.Comments.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.Comments.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.ContentBlock">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.ContentBlock.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.ContentBlock.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.DynamicContent">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.DynamicContent.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.DynamicContent.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.EmailCampaigns">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.EmailCampaigns.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.EmailCampaigns.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.InlineClientAssets">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.InlineClientAssets.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.InlineClientAssets.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.Lists">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.Lists.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.Lists.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.Navigation">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.Navigation.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.Navigation.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.News">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.News.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.News.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.Publishing">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.Publishing.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.Publishing.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.SocialShare">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.SocialShare.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.SocialShare.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.Identity">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.Identity.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.Identity.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.Media">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.Media.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.Media.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.Search">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.Search.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.Search.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Everlive.Client">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Everlive.Client.dll</HintPath>
+      <HintPath>bin\Telerik.Everlive.Client.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Everlive.Sdk">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Everlive.Sdk.dll</HintPath>
+      <HintPath>bin\Telerik.Everlive.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Octopus.Validation">
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Octopus.Validation.dll</HintPath>
+      <HintPath>bin\Telerik.Octopus.Validation.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.OpenAccess">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.OpenAccess.35.Extensions">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.35.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.OpenAccess.40.Extensions">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.40.Extensions.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.40.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.OpenAccess.DataAdapter">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.DataAdapter.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.DataAdapter.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.OpenAccess.DataAdapter.Everlive">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.DataAdapter.Everlive.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.DataAdapter.Everlive.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.OpenAccess.DataAdapter.OpenAccess">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.DataAdapter.OpenAccess.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.DataAdapter.OpenAccess.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.OpenAccess.DataAdapter.SalesForce">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.DataAdapter.SalesForce.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.DataAdapter.SalesForce.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.OpenAccess.DataAdapter.SharePoint">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.DataAdapter.SharePoint.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.DataAdapter.SharePoint.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.OpenAccess.DataSource.SharePoint">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.DataSource.SharePoint.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.DataSource.SharePoint.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.OpenAccess.DataSource.SyncDB">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.DataSource.SyncDB.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.DataSource.SyncDB.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.OpenAccess.Runtime">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.Runtime.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.Runtime.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.OpenAccess.Sync">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.Sync.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.Sync.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.OpenAccess.Web">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.OpenAccess.Web.dll</HintPath>
+      <HintPath>bin\Telerik.OpenAccess.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Reporting">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Reporting.dll</HintPath>
+      <HintPath>bin\Telerik.Reporting.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Reporting.OpenXmlRendering">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Reporting.OpenXmlRendering.dll</HintPath>
+      <HintPath>bin\Telerik.Reporting.OpenXmlRendering.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Reporting.XpsRendering">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Reporting.XpsRendering.dll</HintPath>
+      <HintPath>bin\Telerik.Reporting.XpsRendering.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.ReportViewer.WebForms">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.ReportViewer.WebForms.dll</HintPath>
+      <HintPath>bin\Telerik.ReportViewer.WebForms.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Analytics.Server.Infrastructure">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Analytics.Server.Infrastructure.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Analytics.Server.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <!-- The reference to Telerik.Sitefinity.Audit.ElasticSearch comes from integration build with GIT. 
@@ -484,314 +484,314 @@
 		 https://github.com/Sitefinity/ElasticsearchAuditLogger -->
     <Reference Include="Telerik.Sitefinity.Audit.Elasticsearch">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Audit.Elasticsearch.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Audit.Elasticsearch.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.AuditTrail">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.AuditTrail.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.AuditTrail.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.DataIntelligenceConnector">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.DataIntelligenceConnector.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.DataIntelligenceConnector.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Diagnostics">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Diagnostics.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Diagnostics.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend.Taxonomies">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Frontend.Taxonomies.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Frontend.Taxonomies.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Comments.Impl">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.Comments.Impl.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.Comments.Impl.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Comments">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.Comments.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.Comments.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.DAM">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.DAM.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.DAM.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Dashboard">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Dashboard.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Dashboard.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.EverliveConnector">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.EverliveConnector.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.EverliveConnector.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.MarketoConnector">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.MarketoConnector.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.MarketoConnector.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Migration">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Migration.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Migration.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.MigrationContracts">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.MigrationContracts.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.MigrationContracts.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.MobileAppBuilder">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.MobileAppBuilder.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.MobileAppBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Model">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Model.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Model.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Mvc">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Mvc.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.RecurrentRules">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.RecurrentRules.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.RecurrentRules.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Resources">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Resources.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Resources.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SalesForceConnector">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.SalesForceConnector.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.SalesForceConnector.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Documents.Impl">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.Documents.Impl.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.Documents.Impl.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Events">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.Events.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.Events.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Statistics.Impl">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.Statistics.Impl.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.Statistics.Impl.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Connectivity">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Connectivity.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Connectivity.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Personalization">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Personalization.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Personalization.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Personalization.Impl">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Personalization.Impl.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Personalization.Impl.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.RecycleBin">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.RecycleBin.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.RecycleBin.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.DropboxLibraries">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.DropboxLibraries.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.DropboxLibraries.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Documents">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.Documents.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.Documents.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.ContentModules">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.ContentModules.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.ContentModules.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Ecommerce">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Ecommerce.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Ecommerce.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Forums">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Forums.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Forums.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Search.Impl">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Search.Impl.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Search.Impl.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Search">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Search.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Search.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SharepointConnector">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.SharepointConnector.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.SharepointConnector.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SitemapGenerator">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.SitemapGenerator.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.SitemapGenerator.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Net.Http.dll</HintPath>
+      <HintPath>bin\System.Net.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.Formatting">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Net.Http.Formatting.dll</HintPath>
+      <HintPath>bin\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Web.Http.dll</HintPath>
+      <HintPath>bin\System.Web.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.WebHost">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\System.Web.Http.WebHost.dll</HintPath>
+      <HintPath>bin\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Thunder.Contracts">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Thunder.Contracts.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Thunder.Contracts.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Thunder.Module">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Thunder.Module.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Thunder.Module.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Thunder.Zip">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Thunder.Zip.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Thunder.Zip.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Thunder.CodeSync">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Thunder.CodeSync.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Thunder.CodeSync.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Translations">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Translations.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Translations.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Utilities">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Utilities.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Utilities.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.SiteSync">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.SiteSync.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.SiteSync.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Notifications">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.Notifications.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Notifications.Impl">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.Notifications.Impl.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.Notifications.Impl.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.RecycleBin">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.RecycleBin.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.RecycleBin.Impl">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.RecycleBin.Impl.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.RecycleBin.Impl.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Tfis.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Tfis.Client.dll</HintPath>
+      <HintPath>bin\Telerik.Tfis.Client.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Web.Design">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Web.Design.dll</HintPath>
+      <HintPath>bin\Telerik.Web.Design.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Web.UI">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Web.UI.dll</HintPath>
+      <HintPath>bin\Telerik.Web.UI.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Web.UI.Skins">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Web.UI.Skins.dll</HintPath>
+      <HintPath>bin\Telerik.Web.UI.Skins.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Windows.Controls">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Controls.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Data">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Data.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Data.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Documents.Fixed">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Documents.Fixed.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Documents.Fixed.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Documents">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Documents.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Documents.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Documents.Core">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Documents.Core.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Documents.Core.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Documents.Flow">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Documents.Flow.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Documents.Flow.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Windows.Documents.FormatProviders.Html">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Documents.FormatProviders.Html.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Documents.FormatProviders.Html.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Documents.FormatProviders.OpenXml">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Documents.FormatProviders.OpenXml.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Documents.FormatProviders.OpenXml.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Documents.FormatProviders.Rtf">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Documents.FormatProviders.Rtf.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Documents.FormatProviders.Rtf.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Zip">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.Zip.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.Zip.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Statistics">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.RadUploadHandler">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Windows.RadUploadHandler.dll</HintPath>
+      <HintPath>bin\Telerik.Windows.RadUploadHandler.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Twitterizer2, Version=2.4.1.27318, Culture=neutral, PublicKeyToken=69d1469eac671567, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Twitterizer2.dll</HintPath>
+      <HintPath>bin\Twitterizer2.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity.PrecompiledTemplates">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\Sitefinity\8.0.5710.0\Telerik.Sitefinity.PrecompiledTemplates.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.PrecompiledTemplates.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
