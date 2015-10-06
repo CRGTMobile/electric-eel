@@ -54,6 +54,10 @@
 
 * Extract the files from …/Backups/Backups.zip into …/Web/App_Data/
 
+> Could not load file or assembly * or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+
+* The web.config definition for the assembly needs to be updated to match the version of the ddl.
+
 ## Reference
 
 * [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
