@@ -800,6 +800,54 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Global\cssLoadOrder.xml" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Global\Layout.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Global\Reset.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\blank.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\classic-loader.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\classic-map.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\fancybox-x.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\fancybox-y.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\fancybox.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\fancy_title_over.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfArrows.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfBigStatusIcons.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfEcommerce.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfFileExtensions.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfFileExtensionsSml.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfForums.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfIcons.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfLoadingData.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfPublicContent.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Styles\events.widget.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Styles\fancybox.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Styles\galleria.classic.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Styles\icons.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Styles\nav.widget.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Global\cssLoadOrder.xml" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Global\Layout.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Global\Reset.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\blank.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\classic-loader.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\classic-map.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\fancybox-x.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\fancybox-y.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\fancybox.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\fancy_title_over.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\sfArrows.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\sfBigStatusIcons.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\sfEcommerce.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\sfFileExtensions.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\sfFileExtensionsSml.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\sfForums.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\sfIcons.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\sfLoadingData.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\sfPublicContent.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Styles\events.widget.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Styles\fancybox.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Styles\galleria.classic.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Styles\icons.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Styles\nav.widget.css" />
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
@@ -927,7 +975,12 @@
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\fr-FR.tdf" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Global\Global\" />
+    <Folder Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\Images\" />
+    <Folder Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Global\Global\" />
+    <Folder Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Themes\WebsiteTemplate1\Images\Images\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="App_Data\GeoLocation\GeoLiteCity.dat" />
     <Content Include="App_Data\Sitefinity\Configuration\AnalyticsConfig.config" />
@@ -953,6 +1006,15 @@
     <Content Include="App_Data\Sitefinity\Configuration\VirtualPathSettingsConfig.config" />
     <Content Include="App_Data\Sitefinity\Configuration\WorkflowConfig.config" />
     <Content Include="App_Data\Sitefinity\Sitefinity.lic" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\Backup\PrototypeTemplate-2015-10-06_10-37-28-AM.zip" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\Backup\WebsiteTemplate1-2015-10-06_10-14-21-AM.zip" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\Backup\WebsiteTemplate1-2015-10-06_10-14-35-AM.zip" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\Backup\WebsiteTemplate1-2015-10-06_10-19-34-AM.zip" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Master\PrototypeTemplate.master" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Master\WebsiteTemplate1.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

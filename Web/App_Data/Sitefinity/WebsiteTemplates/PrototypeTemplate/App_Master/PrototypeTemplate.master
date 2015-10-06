@@ -1,26 +1,37 @@
-﻿<%@ Master Language="C#" %>
+<%@ Master Language="C#" %>
+<%@ Register Namespace="Telerik.Sitefinity.Web.UI.NavigationControls" Assembly="Telerik.Sitefinity" TagPrefix="sf" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" >
 	<head id="Head1" runat="server">
 		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>
-	<body class="main-body">
-		<form id="form1" runat="server">
-			<div id="wrapper">
-				<div id="header">
-					<asp:contentplaceholder id="headerPlaceholder" runat="server"/>
-				</div>
-				<div id="content">
-		            <asp:contentplaceholder id="contentPlaceholder" runat="server"/>
-		        </div>
-				<div id="footer">
-		            <asp:contentplaceholder id="footerPlaceholder" runat="server" />
-				</div>
+	<body class="main-body container">
+		<header>
+			<asp:contentplaceholder id="Header" runat="server"/>
+			<nav>
+				<sf:LightNavigationControl id="Menu" runat="server" />
+			</nav>
+			<div id="logout" class="pull-right">
+				<asp:contentplaceholder id="Signin" runat="server"/>
 			</div>
-		</form>
+		</header>
+		<main>
+			<form id="form1" runat="server" class="container">
+				<asp:contentplaceholder id="Main" runat="server"/>
+			</form>
+		</main>
+		<footer>
+			<div>
+				<asp:contentplaceholder id="Footer" runat="server"/>
+				732 North Capitol Street, NW, Washington, DC 20401-0001 &nbsp; &nbsp; 202.512.1800<br/>
+				<small><em>This prototype brought to you by <strong>SalientCRGT</strong></em></small>
+			</div>
+		</footer>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</body>
 </html>
