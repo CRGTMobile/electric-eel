@@ -800,16 +800,36 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\css\bootstrap.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\css\ie9.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\css\style.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\inview\jquery.inview.js" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\mCustomScrollbar\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\mCustomScrollbar\jquery.mCustomScrollbar.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\modernizr\modernizr.custom.js" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\scrollto\jquery.scrollTo.min.js" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\swiper\idangerous.swiper.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\swiper\idangerous.swiper.js" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\twitterfeed\twitterfeed.js" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\waypoint\waypoints.min.js" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\z-nav\jquery.mobile.menu.js" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\z-nav\z-nav.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Global\cssLoadOrder.xml" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Global\Layout.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Global\Reset.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\blank.gif" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\classic-loader.gif" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\classic-map.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\events\webinar\508.jpg" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\events\webinar\education.jpg" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\events\webinar\technology3.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\events\webinar\webinar.jpg" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\fancybox-x.png" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\fancybox-y.png" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\fancybox.png" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\fancy_title_over.png" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\GPOBrand\GPO_Logo.gif" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfArrows.gif" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfBigStatusIcons.png" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfEcommerce.gif" />
@@ -819,6 +839,8 @@
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfIcons.gif" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfLoadingData.gif" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\sfPublicContent.gif" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\js\bootstrap.js" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\js\custom.js" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Styles\events.widget.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Styles\fancybox.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Styles\galleria.classic.css" />
@@ -1007,11 +1029,13 @@
     <Content Include="App_Data\Sitefinity\Configuration\WorkflowConfig.config" />
     <Content Include="App_Data\Sitefinity\Sitefinity.lic" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\Backup\PrototypeTemplate-2015-10-06_10-37-28-AM.zip" />
-    <Content Include="App_Data\Sitefinity\WebsiteTemplates\Backup\WebsiteTemplate1-2015-10-06_10-14-21-AM.zip" />
-    <Content Include="App_Data\Sitefinity\WebsiteTemplates\Backup\WebsiteTemplate1-2015-10-06_10-14-35-AM.zip" />
-    <Content Include="App_Data\Sitefinity\WebsiteTemplates\Backup\WebsiteTemplate1-2015-10-06_10-19-34-AM.zip" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Master\PrototypeTemplate.master" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\WebsiteTemplate1\App_Master\WebsiteTemplate1.master" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\bootstrap\less\glyphicons.less" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\licenses.licx" />
