@@ -27,8 +27,6 @@
 			<sf:ResourceFile Name="external/z-nav/z-nav.css" />
 			<sf:ResourceFile Name="external/swiper/idangerous.swiper.css" />
 			<sf:ResourceFile Name="css/style.css" />
-			<sf:ResourceFile Name="external/waypoint/waypoints.min.js" />
-			<sf:ResourceFile Name="external/modernizr/modernizr.custom.js" />
 			<sf:ResourceFile Name="css/ie9.css" />
 		</sf:ResourceLinks>
 
@@ -61,6 +59,25 @@
 		<![endif]-->
 	</head>
 	<body>
+		<form id="form1" runat="server"></form>
+		<div style="display: none;">
+			<header>
+				<asp:contentplaceholder id="Header" runat="server"/>
+				<div id="logout" class="pull-right">
+					<asp:contentplaceholder id="Signin" runat="server"/>
+				</div>
+			</header>
+			<main>
+				<asp:contentplaceholder id="Main" runat="server"/>
+			</main>
+			<footer>
+				<div>
+					<asp:contentplaceholder id="Footer" runat="server"/>
+					732 North Capitol Street, NW, Washington, DC 20401-0001 &nbsp; &nbsp; 202.512.1800<br/>
+					<small><em>This prototype brought to you by <strong>SalientCRGT</strong></em></small>
+				</div>
+			</footer>
+		</div>
 
 	<div class="wrapper" id="top">
 	
@@ -509,20 +526,23 @@
 		<!-- JavaScript-->
 		<!-- External-->
 		<!-- jQuery 1.10.1--> 
+		<!--
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/jquery/jquery-1.10.1.min.js"><\/script>')</script>
+		-->
 		
-		<sf:ResourceLinks ID="resourceLinks2" runat="server">
-			<sf:ResourceFile Name="js/bootstrap.js" />
-			<sf:ResourceFile Name="external/z-nav/jquery.mobile.menu.js" />
-			<sf:ResourceFile Name="external/swiper/idangerous.swiper.js" />
-			<sf:ResourceFile Name="external/twitterfeed/twitterfeed.js" />
-			<sf:ResourceFile Name="external/scrollto/jquery.scrollTo.min.js" />
-			<sf:ResourceFile Name="external/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js" />
-			<sf:ResourceFile Name="external/inview/jquery.inview.js" />
-			<sf:ResourceFile Name="js/custom.js" static="true" />
-		</sf:ResourceLinks>
 		
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/waypoint/waypoints.min.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/modernizr/modernizr.custom.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/bootstrap.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/z-nav/jquery.mobile.menu.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/swiper/idangerous.swiper.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/twitterfeed/twitterfeed.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/scrollto/jquery.scrollTo.min.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/inview/jquery.inview.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/custom.js"></script>
+
 		<script>
 			$(document).ready(function () {
 				staffSlider();
@@ -536,25 +556,5 @@
 			});
 		</script>
 
-		<div style="display: none;">
-			<header>
-				<asp:contentplaceholder id="Header" runat="server"/>
-				<div id="logout" class="pull-right">
-					<asp:contentplaceholder id="Signin" runat="server"/>
-				</div>
-			</header>
-			<main>
-				<form id="form1" runat="server" class="container">
-					<asp:contentplaceholder id="Main" runat="server"/>
-				</form>
-			</main>
-			<footer>
-				<div>
-					<asp:contentplaceholder id="Footer" runat="server"/>
-					732 North Capitol Street, NW, Washington, DC 20401-0001 &nbsp; &nbsp; 202.512.1800<br/>
-					<small><em>This prototype brought to you by <strong>SalientCRGT</strong></em></small>
-				</div>
-			</footer>
-		</div>
 	</body>
 </html>
