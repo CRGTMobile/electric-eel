@@ -797,12 +797,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AzureWebRole.cs" />
+    <Compile Include="Forms\DateTimeField\Designer\FormWidget1Designer.cs" />
+    <Compile Include="Forms\DateTimeField\FormWidget1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
+    <Content Include="Forms\DateTimeField\Designer\FormWidget1Designer.ascx" />
+    <Content Include="Forms\DateTimeField\Designer\FormWidget1Designer.js" />
+    <Content Include="Forms\DateTimeField\FormWidget1.ascx" />
+    <Content Include="Forms\DateTimeField\FormWidget1.js" />
     <Content Include="Silverlight.js" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Public\Services\Thunder\ThunderService.svc" />
