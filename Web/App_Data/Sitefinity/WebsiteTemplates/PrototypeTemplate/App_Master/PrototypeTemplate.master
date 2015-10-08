@@ -1,26 +1,560 @@
-﻿<%@ Master Language="C#" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<%@ Master Language="C#" %>
+<%@ Register Namespace="Telerik.Sitefinity.Web.UI" Assembly="Telerik.Sitefinity" TagPrefix="sf" %>
+<html lang="en-us" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
 	<head id="Head1" runat="server">
-		<title></title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<!-- Basic Page Needs -->
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="utf-8">
+        <title>GPO - CRGT Demo</title>
+        <meta name="description" content="A Template by Congruity Hub team">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Congruity Hub team">
+
+		<!-- Mobile Specific Metas-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta content="telephone=no" name="format-detection">
+    
+		<!-- Fonts -->
+    	<!-- Open Sans -->
+    	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,600,700italic,400,700,800italic' rel='stylesheet' type='text/css">
+    	<!-- VarelaRound -->
+    	<link href="http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css">
+
+		<!-- Resource Link 11:59 -->
+		<sf:ResourceLinks ID="resourceLinks1" runat="server">
+			<sf:ResourceFile Name="css/bootstrap.css" />
+			<sf:ResourceFile Name="external/mCustomScrollbar/jquery.mCustomScrollbar.css" />
+			<sf:ResourceFile Name="external/z-nav/z-nav.css" />
+			<sf:ResourceFile Name="external/swiper/idangerous.swiper.css" />
+			<sf:ResourceFile Name="css/style.css" />
+			<sf:ResourceFile Name="css/ie9.css" />
+		</sf:ResourceLinks>
+
+    	<!-- Icon Font - Font Awesome -->
+		<link href="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/fonts/glyphicons-halflings-regular.svg" rel="stylesheet">
+        <link href="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/bootstrap/less/glyphicons.less" rel="stylesheet">
+		
+		<!-- *** Favicons *** -->
+		<!--[if IE]><link rel="icon"  href="favicons/favicon_16x16.ico" /><![endif]-->
+		<link rel="icon" href="favicons/favicon_96x96.png">
+		<!-- Specifying a Webpage Icon for Web Clip -->
+		<link rel="apple-touch-icon-precomposed" href="favicons/favicon_57x57.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/favicon_72x72.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/favicon_114x114.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/favicon_144x144.png">
+		<link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicons/favicon_180x180.png">
+
+		<!-- Basic JavaScript-->
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+		<!--[if lt IE 9]> 
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script> 
+			<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>		
+		<![endif]-->
+
+		<!-- todo -->
+		<!--[if lte IE 9]>
+			<sf:ResourceLinks ID="resourceLinksLteIE9" runat="server">
+				<sf:ResourceFile Name="css/ie9.css" />
+			</sf:ResourceLinks>
+		<![endif]-->
 	</head>
-	<body class="main-body">
-		<form id="form1" runat="server">
-			<div id="wrapper">
-				<div id="header">
-					<asp:contentplaceholder id="headerPlaceholder" runat="server"/>
+	<body>
+		<form id="form1" runat="server"></form>
+		<div style="display: none;">
+			<header>
+				<asp:contentplaceholder id="Header" runat="server"/>
+				<div id="logout" class="pull-right">
+					<asp:contentplaceholder id="Signin" runat="server"/>
 				</div>
-				<div id="content">
-		            <asp:contentplaceholder id="contentPlaceholder" runat="server"/>
-		        </div>
-				<div id="footer">
-		            <asp:contentplaceholder id="footerPlaceholder" runat="server" />
+			</header>
+			<main>
+				<asp:contentplaceholder id="Main" runat="server"/>
+			</main>
+			<footer>
+				<div>
+					<asp:contentplaceholder id="Footer" runat="server"/>
+					732 North Capitol Street, NW, Washington, DC 20401-0001 &nbsp; &nbsp; 202.512.1800<br/>
+					<small><em>This prototype brought to you by <strong>SalientCRGT</strong></em></small>
 				</div>
+			</footer>
+		</div>
+
+	<div class="wrapper" id="top">
+	
+		<!-- Header section -->
+		<header class="header">
+			<div class="header-fixed header-down">
+			<div class="header-line waypoint" data-animate-down="header-up" data-animate-up="header-down">
+				<div class="container">
+						<address class="contact-info pull-left hidden-lower">
+						
+                        <a class="contact-info__item" href="#">
+							<i class="glyphicon glyphicon-home"></i>
+							    Home
+						</a>
+                        <a class="contact-info__item" href="#">
+							<i class="glyphicon glyphicon-info-sign"></i>
+							    About GPO
+						</a>
+                           <a class="contact-info__item" href="#">
+							<i class="glyphicon glyphicon-bookmark"></i>
+							   Services
+						</a>
+                           <a class="contact-info__item" href="#">
+							<i class="glyphicon glyphicon-envelope"></i>
+							   Contact Us
+						</a>
+					</address>
+					<!-- end contact information -->
+
+					<!-- Search field -->
+					<form class="search pull-right" id="search-form" name="search-form" method="get" action="#">
+		                <input class="search__field" name="search-request" type="search" placeholder="search" value="">
+		                <button class="search__btn" type="submit">
+				            <i class="glyphicon glyphicon-search"></i>
+				        </button>
+		            </form>
+					<!-- end search field -->
+				</div>  <!-- end container -->
 			</div>
-		</form>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+			
+			<div class="fixed-top header-down">
+			<div class="container">
+            <div class="row">
+<div class="col-lg-5">
+	<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/GPOBrand/GPO_Logo.gif" class="img-responsive" alt="GPO">
+</div>
+  <div class="col-lg-6">
+            <!-- Navigation section -->
+				<nav class="z-nav">
+			    	<!-- Toggle for menu mobile view -->
+			        <a href="#" class="z-nav__toggle">
+			        	<span class="menu-icon"></span>
+			        	<span class="menu-text">navigation</span>
+		        	<div class="menu-head"></div>
+			        </a>
+
+			        <ul class="z-nav__list">
+			        	<li class="z-nav__item">
+			        		<!-- Subsidiary menu toogle button -->
+			            	<span class="z-nav__toggle-sub plus"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-minus"></i></span>
+			        		<a class="z-nav__link" href="#">CONGRESS</a>
+			        		<!-- Subsidiary menu list-->
+			                <ul class="z-nav__list-secondary">
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-book"></i> LINK 1&gt;</a></li><a class="z-nav__link" href="index.html">
+					                    </a><li class="z-nav__item"><a class="z-nav__link" href="index.html"></a><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-bar-chart"></i> LINK 2</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-paperclip"></i> LINK 3</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-credit-card"></i> LINK 4</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-briefcase"></i> LINK 5</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class=" glyphicon-exchange"></i> ANOTHER LINK</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-line-chart"></i> LAST LINK</a></li>
+					                </ul>
+			                <!-- end subsidiary menu list-->
+			        	</li>
+
+			        	<li class="z-nav__item">
+			        		<!-- Subsidiary menu toogle button -->
+			            	<span class="z-nav__toggle-sub plus"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-minus"></i></span>
+			        		<a class="z-nav__link" href="#">AGENCIES</a>
+			        		<!-- Subsidiary menu list-->
+			                <ul class="z-nav__list-secondary">
+			                  <li class="z-nav__item"><a class="z-nav__link" href="index.html">LINK 1&gt;</a></li><a class="z-nav__link" href="index.html">
+					                    </a><li class="z-nav__item"><a class="z-nav__link" href="index.html"></a><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-wheelchair"></i> LINK 2</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-file-text"></i> LINK 3</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-space-shuttle"></i> LINK 4</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-group"></i> LINK 5</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-columns"></i> ANOTHER LINK</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-support"></i> LAST LINK</a></li>
+			                </ul>
+			                <!-- end subsidiary menu list-->
+			        	</li>
+			            
+			            <li class="z-nav__item">
+			                <!-- Subsidiary menu toogle button -->
+			            	<span class="z-nav__toggle-sub plus"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-minus"></i></span>
+			            	<a class="z-nav__link" href="#">VENDORS</a>
+			                <!-- Subsidiary menu list-->
+			                <ul class="z-nav__list-secondary">
+			                  <li class="z-nav__item"><a class="z-nav__link" href="index.html">LINK 1&gt;</a></li><a class="z-nav__link" href="index.html">
+					                    </a><li class="z-nav__item"><a class="z-nav__link" href="index.html"></a><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-bookmark"></i> LINK 2</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-check-square"></i> LINK 3</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-gear"></i> LINK 4</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-camera"></i> LINK 5</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-columns"></i> ANOTHER LINK</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-globe"></i> LAST LINK</a></li>
+			                </ul>
+			                <!-- end subsidiary menu list-->
+			            </li>
+			            
+			            
+			            <li class="z-nav__item">
+			                <!-- Subsidiary menu toogle button -->
+			            	<span class="z-nav__toggle-sub plus"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-minus"></i></span>
+			            	<a class="z-nav__link" href="#">LIBRARIES</a>
+			                <!-- Subsidiary menu list-->
+			                <ul class="z-nav__list-secondary">
+			                   <li class="z-nav__item"><a class="z-nav__link" href="index.html">LINK 1&gt;</a></li><a class="z-nav__link" href="index.html">
+					                    </a><li class="z-nav__item"><a class="z-nav__link" href="index.html"></a><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-gears"></i> LINK 2</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-bookmark"></i> LINK 3</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-book"></i> LINK 4</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-stack"></i> LINK 5</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-columns"></i> ANOTHER LINK</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-compress"></i> LAST LINK</a></li>
+			                </ul>
+			                <!-- end subsidiary menu list-->
+			            </li>
+			            
+			            <li class="z-nav__item">
+			                <!-- Subsidiary menu toogle button -->
+			            	<span class="z-nav__toggle-sub plus"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-minus"></i></span>
+			            	<a class="z-nav__link" href="#">CITIZENS</a>
+			                <!-- Subsidiary menu list-->
+			                <ul class="z-nav__list-secondary">
+					        				<li class="z-nav__item"><a class="z-nav__link" href="index.html">LINK 1&gt;</a></li><a class="z-nav__link" href="index.html">
+					                    </a><li class="z-nav__item"><a class="z-nav__link" href="index.html"></a><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-edit"></i> LINK 2</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-copy"></i> LINK 3</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-graduation-cap"></i> LINK 4</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-pencil"></i> LINK 5</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-print"></i> ANOTHER LINK</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-columns"></i> LAST LINK</a></li>
+			                </ul>   </li><li class="z-nav__item">
+			                <!-- Subsidiary menu toogle button -->
+			            	<span class="z-nav__toggle-sub plus"><i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-minus"></i></span>
+			            	<a class="z-nav__link" href="#">PUBLICATIONS</a>
+			                <!-- Subsidiary menu list-->
+			                <ul class="z-nav__list-secondary">
+			                   <li class="z-nav__item"><a class="z-nav__link" href="index.html">LINK 1&gt;</a></li><a class="z-nav__link" href="index.html">
+					                    </a><li class="z-nav__item"><a class="z-nav__link" href="index.html"></a><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-dashboard"></i> LINK 2</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-file"></i> LINK 3</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-book"></i> LINK 4</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-stack"></i> LINK 5</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-columns"></i> ANOTHER LINK</a></li>
+					                    <li class="z-nav__item"><a class="z-nav__link" href="index.html"><i class="glyphicon glyphicon-compress"></i> LAST LINK</a></li>
+			                </ul>
+			                <!-- end subsidiary menu list-->
+			            </li>
+				  </ul></nav>
+			    <!-- end navigation section --></div>
+</div>
+
+</div> <!-- end container -->
+
+	
+			</div> <!-- end fixed top block -->
+
+			</div>
+		</header>
+		<!-- end header section -->
+
+		
+		
+		<!-- Section show current page and breadcrumb -->
+		<section class="page-indecator">
+			<div class="container">
+				<h2 class="heading">GPO EVENTS</h2>
+				
+				<!-- Breadcrumb pattern -->
+				<ol class="breadcrumb">
+				  <li><a href="index.html">Home</a></li>
+				  <li class="active">Events</li>
+				</ol>
+
+				<!-- Default one color divider -->
+				<div class="divider"></div>
+			</div>
+		</section>
+		<!-- end section show current page and breadcrumb -->
+
+		<section class="container">
+			<div class="row">
+				<div class="about">
+					<div class="col-sm-6">
+						<h2 class="heading-cascade heading-cascade--danger"><span class="heading-cascade__step">Event Date &amp;</span> Event Title and Name</h2>
+						<p class="p-space">Nam auctor dapibus ante vel facilisis. Cras eget adipiscing nisi. Duis aliquet ligula non risus sollicitudin commodo. Donec ullamcorper lacinia turpis at aliquet. Cras consectetur fermentum erat, in placerat ligula pharetra eget. </p>
+						<p class="p-null">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam dolor nisi, fermentum at vulputate in, aliquam id justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam et accumsan ante, et consequat neque. Fusce quis molestie eros. </p><br> add other functionality here: add to calendar and social sharing
+                        <a class="btn btn-warning btn--decorated promo__btn" href="#">Register</a>
+					</div><!-- end col -->
+
+					<div class="col-sm-6">
+						<img class="about-img animated fadeInUpStart fadeInUp" src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/education.jpg">
+					</div><!-- end col -->
+				</div><!-- end about -->
+			</div><!-- end row -->
+		</section><!-- end container -->
+
+		
+		<div class="staff-container">
+			<section class="container">
+				<h2 class="block-title block-title--top-larger">Similar Events</h2>
+
+				<div class="swiper-container staff-slider">
+				  <div class="swiper-wrapper" style="width: 675px; height: 731px;">
+				      <!--Slide-->
+				      <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 675px; height: 731px;"> 
+				        <div class="row">
+							<div class="col-sm-12 col-md-6">
+								<article>
+									<a class="post post--preview-link staff" href="#">
+										<div class="row">
+											<div class="one-column col-xs-6 col-md-7 col-lg-6">
+												<div class="image-container image-container--max image--border-hover">
+													<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/508.jpg" alt="">
+												</div>
+											</div><!-- end col -->
+											<div class="one-column col-xs-6 col-md-5 col-lg-6">
+												<h3 class="staff__name">Event Title</h3>
+												<p class="staff__position">Event Date</p>
+												<p class="post__text">Pellentesque in lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra est.</p>
+											</div><!-- end col -->
+										</div><!-- end row -->
+									</a>
+								</article><!-- end article -->
+							</div><!-- end col -->
+
+							<div class="col-sm-12 col-md-6">
+								<article>
+									<a class="post post--preview-link staff" href="#">
+										<div class="row">
+											<div class="one-column col-xs-6 col-md-7 col-lg-6">
+												<div class="image-container image-container--max image--border-hover">
+													<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/technology3.png" alt="">
+												</div>
+											</div><!-- end col -->
+											<div class="one-column col-xs-6 col-md-5 col-lg-6">
+												<h3 class="staff__name">Event Title</h3>
+												<p class="staff__position">Event Date</p>
+												<p class="post__text"> Sed in lacus adipiscing, dictum elit viverra, ultricies mi. Aliquam quis placerat massa. Mauris at augue erat.  </p>
+											</div><!-- end col -->
+										</div>				      
+				      <!--Slide-->
+				      <div class="swiper-slide">
+				        
+				      </div>
+				
+				  </a></article></div><a class="post post--preview-link staff" href="#">
+			
+				<div class="divider-brand top-space"></div>
+			</a></div></div></div></div></section><a class="post post--preview-link staff" href="#">
+
+			</a><div class="staff-slider-control"><a class="post post--preview-link staff" href="#">
+				</a><a class="prev-arrow" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
+				<a class="next-arrow" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+			</div><!-- end slider controls-->
+		</div>
+
+		<div class="testimonial-block">
+			<div class="container">
+				<div class="block-title block-title--top-larger">Upcoming Events</div>
+
+				<div class="content">
+	                <ul class="testimonial-wrap mCustomScrollbar _mCS_1"><div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_horizontal mCSB_inside" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position: relative; top: 0px; left: 0px; width: 2731px;" dir="ltr">
+
+	                    <li class="testimonial">
+							<div>
+							
+							</div>
+							<p class="testimonial__author">Event Name</p>
+							<p class="testimonial__info">Event Date</p>
+							<p class="testimonial__text">“Donec euismod turpis id ullamcorper lobortis. Maecenas faucibus ipsum sem, sed consequat ante consectetur non. Nam at neque dui. Integer id risus sit amet justo varius semper quis ut enim.”</p>
+						</li>
+
+						<li class="testimonial">
+							<div class="testimonial__images">
+								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/education.jpg" alt="">
+							</div>
+							<p class="testimonial__author">Event</p>
+							<p class="testimonial__info">Date</p>
+							<p class="testimonial__text">“Aenean rutrum aliquet odio, ut posuere ante eleifend ac. Donec venenatis diam sapien, malesuada euismod diam rutrum a. ”</p>
+						</li>
+
+						<li class="testimonial">
+							<div class="testimonial__images">
+								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
+							</div>
+							<p class="testimonial__author">Event</p>
+							<p class="testimonial__info">Date</p>
+							<p class="testimonial__text">Quisque feugiat facilisis ipsum ut lobortis. Integer hendrerit sodales nisl nec tristique. Aenean commodo sapien ac tellus pharetra, quis tristique mi posuere.</p>
+						</li>
+
+						<li class="testimonial">
+							<div class="testimonial__images">
+								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
+							</div>
+							<p class="testimonial__author">Event</p>
+							<p class="testimonial__info">Date</p>
+							<p class="testimonial__text">“Aenean rutrum aliquet odio, ut posuere ante eleifend ac. Donec venenatis diam sapien, malesuada euismod diam rutrum a. ”</p>
+						</li>
+
+						<li class="testimonial">
+							<div class="testimonial__images">
+								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
+							</div>
+							<p class="testimonial__author">Event</p>
+							<p class="testimonial__info">Date</p>
+							<p class="testimonial__text">Quisque feugiat facilisis ipsum ut lobortis. Integer hendrerit sodales nisl nec tristique. Aenean commodo sapien ac tellus pharetra, quis tristique mi posuere.</p>
+						</li>
+
+						<li class="testimonial">
+							<div class="testimonial__images">
+								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
+							</div>
+							<p class="testimonial__author">Event</p>
+							<p class="testimonial__info">Date</p>
+							<p class="testimonial__text">“Donec euismod turpis id ullamcorper lobortis. Maecenas faucibus ipsum sem, sed consequat ante consectetur non. Nam at neque dui. Integer id risus sit amet justo varius semper quis ut enim.”</p>
+						</li>
+
+						<li class="testimonial">
+							<div class="testimonial__images">
+								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
+							</div>
+							<p class="testimonial__author">Event</p>
+							<p class="testimonial__info">Date</p>
+							<p class="testimonial__text">“Aenean rutrum aliquet odio, ut posuere ante eleifend ac. Donec venenatis diam sapien, malesuada euismod diam rutrum a. ”</p>
+						</li>
+
+	                </div><div id="mCSB_1_scrollbar_horizontal" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light mCSB_scrollTools_horizontal" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_horizontal" class="mCSB_dragger" style="position: absolute; min-width: 50px; display: block; left: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
+	            </div>
+
+			</div><!-- end container -->
+		</div>
+		<!-- Colored divider -->
+		
+
+		<!-- Footer section -->
+		<footer class="footer">
+			<div class="container">
+				<!-- Twitter carousel -->
+				<div class="swiper-container">
+					
+					<!-- Slider pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+
+				<div class="row">
+				
+				<!-- Latest post -->
+				<div class="col-sm-4">
+					<h3 class="heading-info">Latest GPO News:</h3>
+
+					<div class="row">
+						<div class="col-xs-6 col-sm-12 one-column">
+							<article class="post post--latest">
+								<h3 class="not-visible">Post Here</h3>
+								<a class="post__images" href="#">
+									<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="Webinar">
+								</a>
+								<a class="post__text" href="#">Mauris orci purus, ultrices dapibus justo non, eleifend consequat lorem. </a>
+								<time datetime="2015-10-17" class="post__date">October 17, 2015</time>
+							</article>
+						</div>
+					
+						<div class="col-xs-6 col-sm-12 one-column">
+							<article class="post post--latest">
+								<h3 class="not-visible">More News</h3>
+								<a class="post__images" href="#">
+									<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="Webinar">
+								</a>
+								<a class="post__text" href="#">Pellentesque et magna malesuada, scelerisque elit ac, convallis lacus. </a>
+								<time datetime="2015-10-16" class="post__date">October 16, 2015</time>
+							</article>
+						</div>
+					</div>
+				</div>
+				<!-- end latest post -->
+				
+				<!-- Contact info about company -->
+				<div class="col-sm-4">
+					<h3 class="heading-info heading-info--mobile">Contact info:</h3>
+					<!-- Contact information about company -->
+						<address class="contact-info contact-info--list">
+							<div class="row">
+								<div class="col-xs-6 col-sm-12 one-column">
+									<a href="http://maps.google.com/?q=732 Capital Street NW, Washington, DC 20401" class="contact-info__item" target="_blank">
+										<i class="glyphicon glyphicon-location-arrow"></i>
+										732 Capital Street NW, Washington, DC 20401
+									</a>
+									<a class="contact-info__item" href="tel://1.202.512.1800">
+										<i class="glyphicon glyphicon-mobile"></i>
+										+1.202.512.1800
+									</a>
+								</div>
+					
+								<div class="col-xs-6 col-sm-12 one-column">
+									<a class="contact-info__item" href="mailto:info@GPO.gov?subject=Email from website">
+										<i class="glyphicon glyphicon-envelope"></i>
+										info@GPG.gov
+									</a>
+					
+								</div>
+							</div>
+						</address>
+						<!-- end contact information -->
+				</div>
+				<!-- end contact info -->
+				
+				<!-- Social links -->
+				<div class="col-sm-4">
+				<h3 class="heading-info heading-info--mobile">We’re social:</h3>
+					<div class="social social--default">
+						<!-- List with social icons -->
+						Put social media icons here
+					</div>
+				</div>
+				<!-- end social links -->
+				</div><!-- end row -->
+				
+				<div class="copy">
+					© ((ADD FLAG)) U.S. GOVERNMENT PUBLISHING OFFICE <br>OFFICIAL | DIGITAL | SECURE <br><br>
+                    <a class="contact-info__item" href="tel://1.202.512.1800">
+							<i class="glyphicon glyphicon-phone"></i>
+							+1.202.512.1800
+						</a>
+						<a class="contact-info__item" href="mailto:info@GPO.gov?subject=Email from website">
+							<i class="glyphicon glyphicon-envelope"></i>
+							   info@GOP.gov
+						</a><br><br>
+				Privacy Statement  |  Accessibility  |  Site Map  |  Privacy Program/COOP </div>
+
+			</div><!-- end container -->
+		</footer>
+		<!-- end footer section -->
+
+		<div class="top-scroll" style="display: none;"><i class="glyphicon glyphicon-chevron-up"></i></div>
+	
+		</div>
+
+		<!-- JavaScript-->
+		<!-- External-->
+		<!-- jQuery 1.10.1--> 
+		<!--
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/jquery/jquery-1.10.1.min.js"><\/script>')</script>
+		-->
+		
+		
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/waypoint/waypoints.min.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/modernizr/modernizr.custom.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/bootstrap.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/z-nav/jquery.mobile.menu.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/swiper/idangerous.swiper.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/twitterfeed/twitterfeed.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/scrollto/jquery.scrollTo.min.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/inview/jquery.inview.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/custom.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				staffSlider();
+				scrollSlider();
+
+				$('.about ').one('inview', function (event, visible) {
+					if (visible == true) {
+						$('.about-img').addClass('fadeInUp');
+					}
+				});
+			});
+		</script>
+
 	</body>
 </html>
