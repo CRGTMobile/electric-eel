@@ -1,12 +1,12 @@
 ﻿Type.registerNamespace("SitefinityWebApp.Forms.DateTimeField");
 
-SitefinityWebApp.Forms.DateTimeField.FormWidget1 = function (element) {
+SitefinityWebApp.Forms.DateTimeField.DateTimeField = function (element) {
     this._dateTimePicker = null;
     this._dataFieldName = null;
-    SitefinityWebApp.Forms.DateTimeField.FormWidget1.initializeBase(this, [element]);
+    SitefinityWebApp.Forms.DateTimeField.DateTimeField.initializeBase(this, [element]);
 }
 
-SitefinityWebApp.Forms.DateTimeField.FormWidget1.prototype = {
+SitefinityWebApp.Forms.DateTimeField.DateTimeField.prototype = {
     /* --------------------------------- set up and tear down ---------------------------- */
 
     /* --------------------------------- public methods ---------------------------------- */
@@ -44,4 +44,4 @@ SitefinityWebApp.Forms.DateTimeField.FormWidget1.prototype = {
     }
 }
 
-SitefinityWebApp.Forms.DateTimeField.FormWidget1.registerClass('SitefinityWebApp.Forms.DateTimeField.FormWidget1', Telerik.Sitefinity.Web.UI.Fields.FieldControl);
+SitefinityWebApp.Forms.DateTimeField.DateTimeField.registerClass('SitefinityWebApp.Forms.DateTimeField.DateTimeField', Telerik.Sitefinity.Web.UI.Fields.FieldControl);

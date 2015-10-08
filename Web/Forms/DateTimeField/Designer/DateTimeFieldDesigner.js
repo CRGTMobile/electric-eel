@@ -1,6 +1,6 @@
 Type.registerNamespace("SitefinityWebApp.Forms.DateTimeField.Designer");
 
-SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer = function (element) {
+SitefinityWebApp.Forms.DateTimeField.Designer.DateTimeFieldDesigner = function (element) {
     /* Initialize Title fields */
     this._title = null;
     
@@ -14,18 +14,18 @@ SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer = function (el
     this._metaFieldNameTextBox = null;
 
     /* Calls the base constructor */
-    SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer.initializeBase(this, [element]);
+    SitefinityWebApp.Forms.DateTimeField.Designer.DateTimeFieldDesigner.initializeBase(this, [element]);
 }
 
-SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer.prototype = {
+SitefinityWebApp.Forms.DateTimeField.Designer.DateTimeFieldDesigner.prototype = {
     /* --------------------------------- set up and tear down --------------------------------- */
     initialize: function () {
         /* Here you can attach to events or do other initialization */
-        SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer.callBaseMethod(this, 'initialize');
+        SitefinityWebApp.Forms.DateTimeField.Designer.DateTimeFieldDesigner.callBaseMethod(this, 'initialize');
     },
     dispose: function () {
         /* this is the place to unbind/dispose the event handlers created in the initialize method */
-        SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer.callBaseMethod(this, 'dispose');
+        SitefinityWebApp.Forms.DateTimeField.Designer.DateTimeFieldDesigner.callBaseMethod(this, 'dispose');
     },
 
     /* --------------------------------- public methods ---------------------------------- */
@@ -87,4 +87,4 @@ SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer.prototype = {
     set_metaFieldNameTextBox: function (value) { this._metaFieldNameTextBox = value; }
 }
 
-SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer.registerClass('SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer', Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase);
+SitefinityWebApp.Forms.DateTimeField.Designer.DateTimeFieldDesigner.registerClass('SitefinityWebApp.Forms.DateTimeField.Designer.DateTimeFieldDesigner', Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase);

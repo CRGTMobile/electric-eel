@@ -11,9 +11,9 @@ using Telerik.Sitefinity.Modules.Forms.Web.UI.Fields;
 namespace SitefinityWebApp.Forms.DateTimeField.Designer
 {
     /// <summary>
-    /// Represents a designer for the <typeparamref name="SitefinityWebApp.Forms.DateTimeField.FormWidget1"/> widget
+    /// Represents a designer for the <typeparamref name="SitefinityWebApp.Forms.DateTimeField.DateTimeField"/> widget
     /// </summary>
-    public class FormWidget1Designer : ControlDesignerBase
+    public class DateTimeFieldDesigner : ControlDesignerBase
     {
         #region Properties
         /// <summary>
@@ -35,7 +35,7 @@ namespace SitefinityWebApp.Forms.DateTimeField.Designer
             get
             {
                 if (string.IsNullOrEmpty(base.LayoutTemplatePath))
-                    return FormWidget1Designer.layoutTemplatePath;
+                    return DateTimeFieldDesigner.layoutTemplatePath;
                 return base.LayoutTemplatePath;
             }
             set
@@ -157,14 +157,14 @@ namespace SitefinityWebApp.Forms.DateTimeField.Designer
         public override System.Collections.Generic.IEnumerable<System.Web.UI.ScriptReference> GetScriptReferences()
         {
             var scripts = new List<ScriptReference>(base.GetScriptReferences());
-            scripts.Add(new ScriptReference(FormWidget1Designer.scriptReference));
+            scripts.Add(new ScriptReference(DateTimeFieldDesigner.scriptReference));
             return scripts;
         }
         #endregion
 
         #region Private members & constants
-        public static readonly string layoutTemplatePath = "~/Forms/DateTimeField/Designer/FormWidget1Designer.ascx";
-        public const string scriptReference = "~/Forms/DateTimeField/Designer/FormWidget1Designer.js";
+        public static readonly string layoutTemplatePath = "~/Forms/DateTimeField/Designer/DateTimeFieldDesigner.ascx";
+        public const string scriptReference = "~/Forms/DateTimeField/Designer/DateTimeFieldDesigner.js";
         #endregion
     }
 }

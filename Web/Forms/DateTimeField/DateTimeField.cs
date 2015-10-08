@@ -28,9 +28,9 @@ namespace SitefinityWebApp.Forms.DateTimeField
     ///        .LoadOrAddSection(SectionName) // "TwoColumns" is Sitefinity's default
     ///            .SetTitle(SectionTitle) // When creating a new section
     ///            .SetDescription(SectionDescription) // When creating a new section
-    ///            .LoadOrAddWidget<FormWidget1>("FormWidget1")
-    ///                .SetTitle("FormWidget1")
-    ///                .SetDescription("FormWidget1")
+    ///            .LoadOrAddWidget<DateTimeField>("DateTimeField")
+    ///                .SetTitle("DateTimeField")
+    ///                .SetDescription("DateTimeField")
     ///                .LocalizeUsing<ModuleResourceClass>() // Optional
     ///                .SetCssClass(WidgetCssClass) // You can use a css class to add an icon (this is optional)
     ///            .Done()
@@ -39,16 +39,16 @@ namespace SitefinityWebApp.Forms.DateTimeField
     /// </remarks>
     /// <see cref="http://www.sitefinity.com/documentation/gettingstarted/creating-custom-form-field-controls"/>
     [DatabaseMapping(UserFriendlyDataType.ShortText)]
-    [PropertyEditorTitle("FormWidget1 Properties"), Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesigner(typeof(SitefinityWebApp.Forms.DateTimeField.Designer.FormWidget1Designer))]
-    public class FormWidget1 : FieldControl, IFormFieldControl
+    [PropertyEditorTitle("DateTimeField Properties"), Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesigner(typeof(SitefinityWebApp.Forms.DateTimeField.Designer.DateTimeFieldDesigner))]
+    public class DateTimeField : FieldControl, IFormFieldControl
     {
         #region Constructor
         /// <summary>
-        /// Initializes a new instance of the FormWidget1 class.
+        /// Initializes a new instance of the DateTimeField class.
         /// </summary>
-        public FormWidget1()
+        public DateTimeField()
         {
-            this.Title = "FormWidget1";
+            this.Title = "DateTimeField";
         }
         #endregion
 
@@ -130,7 +130,7 @@ namespace SitefinityWebApp.Forms.DateTimeField
             get
             {
                 if (string.IsNullOrEmpty(base.LayoutTemplatePath))
-                    return FormWidget1.layoutTemplatePath;
+                    return DateTimeField.layoutTemplatePath;
                 return base.LayoutTemplatePath;
             }
             set
@@ -270,7 +270,7 @@ namespace SitefinityWebApp.Forms.DateTimeField
         /// <returns>List of all scripts used by control</returns>
         public override IEnumerable<ScriptDescriptor> GetScriptDescriptors()
         {
-            var descriptor = new ScriptControlDescriptor(typeof(FormWidget1).FullName, this.ClientID);
+            var descriptor = new ScriptControlDescriptor(typeof(DateTimeField).FullName, this.ClientID);
             descriptor.AddComponentProperty("dateTimePicker", this.DateTimePicker.ClientID);
             descriptor.AddProperty("dataFieldName", this.MetaField.FieldName); //the field name of the corresponding widget
             return new[] { descriptor };
@@ -284,7 +284,7 @@ namespace SitefinityWebApp.Forms.DateTimeField
         {
             var scripts = new List<ScriptReference>(base.GetScriptReferences())
             {
-                new ScriptReference(FormWidget1.scriptReference),
+                new ScriptReference(DateTimeField.scriptReference),
                 new ScriptReference("Telerik.Sitefinity.Web.UI.Fields.Scripts.FieldDisplayMode.js", "Telerik.Sitefinity"),
             };
             return scripts;
@@ -293,8 +293,8 @@ namespace SitefinityWebApp.Forms.DateTimeField
 
         #region Private fields and constants
         private IMetaField metaField = null;
-        public static readonly string layoutTemplatePath = "~/Forms/DateTimeField/FormWidget1.ascx";
-        public const string scriptReference = "~/Forms/DateTimeField/FormWidget1.js";
+        public static readonly string layoutTemplatePath = "~/Forms/DateTimeField/DateTimeField.ascx";
+        public const string scriptReference = "~/Forms/DateTimeField/DateTimeField.js";
         #endregion
     }
 }
