@@ -805,6 +805,7 @@
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\css\bootstrap.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\css\ie9.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\css\style.css" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\css\touch.css" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\inview\jquery.inview.js" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\mCustomScrollbar\jquery.mCustomScrollbar.concat.min.js" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\external\mCustomScrollbar\jquery.mCustomScrollbar.css" />

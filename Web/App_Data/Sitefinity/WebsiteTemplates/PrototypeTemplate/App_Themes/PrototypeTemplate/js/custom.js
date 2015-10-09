@@ -3,8 +3,8 @@
 //Modernizr touch detect
 Modernizr.load({
 	test: Modernizr.touch,
-	yep :['css/touch.css?v=1'],
-	nope: ['external/waypoint/waypoints.min.js'],
+	yep: ['/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/css/touch.css'],
+	nope: ['/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/waypoint/waypoints.min.js'],
 	complete : function () {
 		if (Modernizr.touch){
 			//initMobile
@@ -27,14 +27,15 @@ Modernizr.load({
 				animClassDown = $el.data( 'animateDown' ),
 				animClassUp = $el.data( 'animateUp' );
 							 
-				$el.waypoint( function( direction ) {
-					if( direction === 'down' && animClassDown) {
-						$head.attr('class', 'header-fixed ' + animClassDown);
-					}
-					else if( direction === 'up' && animClassUp){
-						$head.attr('class', 'header-fixed ' + animClassUp);
-					}
-				}, { offset: -250 });
+				if ($el.waypoint)
+					$el.waypoint(function (direction) {
+						if( direction === 'down' && animClassDown) {
+							$head.attr('class', 'header-fixed ' + animClassDown);
+						}
+						else if( direction === 'up' && animClassUp){
+							$head.attr('class', 'header-fixed ' + animClassUp);
+						}
+					}, { offset: -250 });
 			});	
 		}
 	}  

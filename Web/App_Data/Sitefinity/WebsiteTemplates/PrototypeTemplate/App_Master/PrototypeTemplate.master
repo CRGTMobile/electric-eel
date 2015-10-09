@@ -57,319 +57,148 @@
 				<sf:ResourceFile Name="css/ie9.css" />
 			</sf:ResourceLinks>
 		<![endif]-->
+
+		<style>
+			html, div.wrapper {
+				height: 100%;
+			}
+			div.wrapper {
+				display: table;
+				width: 100%;
+			}
+			body > form {
+				height:100%;
+				margin: 0;
+			}
+			.page-row {
+				display: table-row;
+				height: 1px;
+			}
+			.page-row-expanded {
+				height: 100%;
+			}
+			.page-content {
+				padding-bottom: 60px;
+			}
+
+			img.media-object {
+				height: 64px;
+				width: 64px;
+			}
+			.media-heading small {
+				color: #fe8f8c;
+			}
+			
+			/* css to help UI blend with Sitefinity wysiwyg editor */
+			.sfPageContainer .wrapper {
+				margin-right: auto;
+				margin-left: auto;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			.sfPageContainer .wrapper .container {
+				width: auto;
+				padding: 0;
+			}
+			.sfInlineEditingPageMenu {
+				z-index: 9999!important;
+				margin-top: 23px;
+			}
+			body.sfPageEditor {
+				display: block;
+			}
+			.sfPageContainer .page-row {
+				display: block;
+				height: auto;
+			}
+			.sfWorkflowBtnsShown .header-fixed {
+				top: 43px;
+			}
+			.sfWorkflowBtnsShown .header {
+				margin-bottom: 43px;
+			}
+		</style>
 	</head>
 	<body>
-		<%--
 		<form id="form1" runat="server">
-			<asp:contentplaceholder id="HeadingText" runat="server"/>
-			<asp:contentplaceholder id="Main" runat="server"/>
-		</form>
-		--%>
+			<div class="wrapper" id="top">
 
-		<form id="form1" runat="server">
-		<div class="wrapper" id="top">
+				<header id="Header" class="page-row">
+					<asp:contentplaceholder id="Header" runat="server" />
+				</header>
 
-
-        <div id="Header">
-            <asp:contentplaceholder id="Header" runat="server" />
-        </div>
-
-		
-		
-		<!-- Section show current page and breadcrumb -->
-		<section class="page-indecator">
-			<div class="container">
-				<h2 class="heading">
-					<asp:contentplaceholder id="HeadingText" runat="server"/>
-				</h2>
-				
-				<!-- Breadcrumb pattern -->
-				<ol class="breadcrumb">
-				  <li><a href="index.html">Home</a></li>
-				  <li class="active">Events</li>
-				</ol>
-
-				<!-- Default one color divider -->
-				<div class="divider"></div>
-			</div>
-		</section>
-		<!-- end section show current page and breadcrumb -->
-
-		<asp:contentplaceholder id="Main" runat="server"/>
-
-		<div class="staff-container">
-			<section class="container">
-				<h2 class="block-title block-title--top-larger">Similar Events</h2>
-
-				<div class="swiper-container staff-slider">
-				  <div class="swiper-wrapper" style="width: 675px; height: 731px;">
-				      <!--Slide-->
-				      <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 675px; height: 731px;"> 
-				        <div class="row">
-							<div class="col-sm-12 col-md-6">
-								<article>
-									<a class="post post--preview-link staff" href="#">
-										<div class="row">
-											<div class="one-column col-xs-6 col-md-7 col-lg-6">
-												<div class="image-container image-container--max image--border-hover">
-													<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/508.jpg" alt="">
-												</div>
-											</div><!-- end col -->
-											<div class="one-column col-xs-6 col-md-5 col-lg-6">
-												<h3 class="staff__name">Event Title</h3>
-												<p class="staff__position">Event Date</p>
-												<p class="post__text">Pellentesque in lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra est.</p>
-											</div><!-- end col -->
-										</div><!-- end row -->
-									</a>
-								</article><!-- end article -->
-							</div><!-- end col -->
-
-							<div class="col-sm-12 col-md-6">
-								<article>
-									<a class="post post--preview-link staff" href="#">
-										<div class="row">
-											<div class="one-column col-xs-6 col-md-7 col-lg-6">
-												<div class="image-container image-container--max image--border-hover">
-													<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/technology3.png" alt="">
-												</div>
-											</div><!-- end col -->
-											<div class="one-column col-xs-6 col-md-5 col-lg-6">
-												<h3 class="staff__name">Event Title</h3>
-												<p class="staff__position">Event Date</p>
-												<p class="post__text"> Sed in lacus adipiscing, dictum elit viverra, ultricies mi. Aliquam quis placerat massa. Mauris at augue erat.  </p>
-											</div><!-- end col -->
-										</div>				      
-				      <!--Slide-->
-				      <div class="swiper-slide">
-				        
-				      </div>
-				
-				  </a></article></div><a class="post post--preview-link staff" href="#">
-			
-				<div class="divider-brand top-space"></div>
-			</a></div></div></div></div></section><a class="post post--preview-link staff" href="#">
-
-			</a><div class="staff-slider-control"><a class="post post--preview-link staff" href="#">
-				</a><a class="prev-arrow" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
-				<a class="next-arrow" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
-			</div><!-- end slider controls-->
-		</div>
-
-		<div class="testimonial-block">
-			<div class="container">
-				<div class="block-title block-title--top-larger">Upcoming Events</div>
-
-				<div class="content">
-	                <ul class="testimonial-wrap mCustomScrollbar _mCS_1"><div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_horizontal mCSB_inside" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position: relative; top: 0px; left: 0px; width: 2731px;" dir="ltr">
-
-	                    <li class="testimonial">
-							<div>
-							
-							</div>
-							<p class="testimonial__author">Event Name</p>
-							<p class="testimonial__info">Event Date</p>
-							<p class="testimonial__text">“Donec euismod turpis id ullamcorper lobortis. Maecenas faucibus ipsum sem, sed consequat ante consectetur non. Nam at neque dui. Integer id risus sit amet justo varius semper quis ut enim.”</p>
-						</li>
-
-						<li class="testimonial">
-							<div class="testimonial__images">
-								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/education.jpg" alt="">
-							</div>
-							<p class="testimonial__author">Event</p>
-							<p class="testimonial__info">Date</p>
-							<p class="testimonial__text">“Aenean rutrum aliquet odio, ut posuere ante eleifend ac. Donec venenatis diam sapien, malesuada euismod diam rutrum a. ”</p>
-						</li>
-
-						<li class="testimonial">
-							<div class="testimonial__images">
-								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
-							</div>
-							<p class="testimonial__author">Event</p>
-							<p class="testimonial__info">Date</p>
-							<p class="testimonial__text">Quisque feugiat facilisis ipsum ut lobortis. Integer hendrerit sodales nisl nec tristique. Aenean commodo sapien ac tellus pharetra, quis tristique mi posuere.</p>
-						</li>
-
-						<li class="testimonial">
-							<div class="testimonial__images">
-								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
-							</div>
-							<p class="testimonial__author">Event</p>
-							<p class="testimonial__info">Date</p>
-							<p class="testimonial__text">“Aenean rutrum aliquet odio, ut posuere ante eleifend ac. Donec venenatis diam sapien, malesuada euismod diam rutrum a. ”</p>
-						</li>
-
-						<li class="testimonial">
-							<div class="testimonial__images">
-								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
-							</div>
-							<p class="testimonial__author">Event</p>
-							<p class="testimonial__info">Date</p>
-							<p class="testimonial__text">Quisque feugiat facilisis ipsum ut lobortis. Integer hendrerit sodales nisl nec tristique. Aenean commodo sapien ac tellus pharetra, quis tristique mi posuere.</p>
-						</li>
-
-						<li class="testimonial">
-							<div class="testimonial__images">
-								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
-							</div>
-							<p class="testimonial__author">Event</p>
-							<p class="testimonial__info">Date</p>
-							<p class="testimonial__text">“Donec euismod turpis id ullamcorper lobortis. Maecenas faucibus ipsum sem, sed consequat ante consectetur non. Nam at neque dui. Integer id risus sit amet justo varius semper quis ut enim.”</p>
-						</li>
-
-						<li class="testimonial">
-							<div class="testimonial__images">
-								<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="">
-							</div>
-							<p class="testimonial__author">Event</p>
-							<p class="testimonial__info">Date</p>
-							<p class="testimonial__text">“Aenean rutrum aliquet odio, ut posuere ante eleifend ac. Donec venenatis diam sapien, malesuada euismod diam rutrum a. ”</p>
-						</li>
-
-	                </div><div id="mCSB_1_scrollbar_horizontal" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light mCSB_scrollTools_horizontal" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_horizontal" class="mCSB_dragger" style="position: absolute; min-width: 50px; display: block; left: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar"></div></div><div class="mCSB_draggerRail"></div></div></div></div></ul>
-	            </div>
-
-			</div><!-- end container -->
-		</div>
-		<!-- Colored divider -->
-		
-
-		<!-- Footer section -->
-		<footer class="footer">
-			<div class="container">
-				<!-- Twitter carousel -->
-				<div class="swiper-container">
-					
-					<!-- Slider pagination -->
-					<div class="swiper-pagination"></div>
-				</div>
-
-				<div class="row">
-				
-				<!-- Latest post -->
-				<div class="col-sm-4">
-					<h3 class="heading-info">Latest GPO News:</h3>
-
-					<div class="row">
-						<div class="col-xs-6 col-sm-12 one-column">
-							<article class="post post--latest">
-								<h3 class="not-visible">Post Here</h3>
-								<a class="post__images" href="#">
-									<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="Webinar">
-								</a>
-								<a class="post__text" href="#">Mauris orci purus, ultrices dapibus justo non, eleifend consequat lorem. </a>
-								<time datetime="2015-10-17" class="post__date">October 17, 2015</time>
-							</article>
+				<main class="page-row page-row-expanded">
+					<section class="page-indecator">
+						<div class="container-fluid">
+							<asp:contentplaceholder id="PageHeadingExpanded" runat="server"/>
 						</div>
-					
-						<div class="col-xs-6 col-sm-12 one-column">
-							<article class="post post--latest">
-								<h3 class="not-visible">More News</h3>
-								<a class="post__images" href="#">
-									<img src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/images/events/webinar/webinar.jpg" alt="Webinar">
-								</a>
-								<a class="post__text" href="#">Pellentesque et magna malesuada, scelerisque elit ac, convallis lacus. </a>
-								<time datetime="2015-10-16" class="post__date">October 16, 2015</time>
-							</article>
+
+						<div class="container">
+							<asp:contentplaceholder id="PageHeading" runat="server"/>
+							<div class="divider">&nbsp;</div>
 						</div>
-					</div>
-				</div>
-				<!-- end latest post -->
-				
-				<!-- Contact info about company -->
-				<div class="col-sm-4">
-					<h3 class="heading-info heading-info--mobile">Contact info:</h3>
-					<!-- Contact information about company -->
-						<address class="contact-info contact-info--list">
-							<div class="row">
-								<div class="col-xs-6 col-sm-12 one-column">
-									<a href="http://maps.google.com/?q=732 Capital Street NW, Washington, DC 20401" class="contact-info__item" target="_blank">
-										<i class="glyphicon glyphicon-location-arrow"></i>
-										732 Capital Street NW, Washington, DC 20401
-									</a>
-									<a class="contact-info__item" href="tel://1.202.512.1800">
-										<i class="glyphicon glyphicon-mobile"></i>
-										+1.202.512.1800
-									</a>
-								</div>
-					
-								<div class="col-xs-6 col-sm-12 one-column">
-									<a class="contact-info__item" href="mailto:info@GPO.gov?subject=Email from website">
-										<i class="glyphicon glyphicon-envelope"></i>
-										info@GPG.gov
-									</a>
-					
-								</div>
-							</div>
-						</address>
-						<!-- end contact information -->
-				</div>
-				<!-- end contact info -->
-				
-				<!-- Social links -->
-				<div class="col-sm-4">
-				<h3 class="heading-info heading-info--mobile">We’re social:</h3>
-					<div class="social social--default">
-						<!-- List with social icons -->
-						Put social media icons here
-					</div>
-				</div>
-				<!-- end social links -->
-				</div><!-- end row -->
-				
-				<div class="copy">
-					© ((ADD FLAG)) U.S. GOVERNMENT PUBLISHING OFFICE <br>OFFICIAL | DIGITAL | SECURE <br><br>
-                    <a class="contact-info__item" href="tel://1.202.512.1800">
-							<i class="glyphicon glyphicon-phone"></i>
-							+1.202.512.1800
-						</a>
-						<a class="contact-info__item" href="mailto:info@GPO.gov?subject=Email from website">
-							<i class="glyphicon glyphicon-envelope"></i>
-							   info@GOP.gov
-						</a><br><br>
-				Privacy Statement  |  Accessibility  |  Site Map  |  Privacy Program/COOP </div>
+					</section>
 
-			</div><!-- end container -->
-		</footer>
-		<!-- end footer section -->
+					<section class="page-content">
+						<div class="container">
+							<asp:contentplaceholder id="PageContent" runat="server"/>
+						</div>
 
-		<div class="top-scroll" style="display: none;"><i class="glyphicon glyphicon-chevron-up"></i></div>
+						<div class="container-fluid">
+							<asp:contentplaceholder id="PageContentExpanded" runat="server"/>
+						</div>
+					</section>
+				</main>
+
+				<footer class="footer page-row">
+					<asp:contentplaceholder id="Footer" runat="server" />
+				</footer>
+
+				<div class="top-scroll" style="display: none;"><i class="glyphicon glyphicon-chevron-up"></i></div>
 	
-		</div>
-
-		<!-- JavaScript-->
-		<!-- External-->
-		<!-- jQuery 1.10.1--> 
-		<!--
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/jquery/jquery-1.10.1.min.js"><\/script>')</script>
-		-->
+			</div>
 		
-		
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/waypoint/waypoints.min.js"></script>
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/modernizr/modernizr.custom.js"></script>
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/bootstrap.js"></script>
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/z-nav/jquery.mobile.menu.js"></script>
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/swiper/idangerous.swiper.js"></script>
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/twitterfeed/twitterfeed.js"></script>
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/scrollto/jquery.scrollTo.min.js"></script>
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/inview/jquery.inview.js"></script>
-		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/custom.js"></script>
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/waypoint/waypoints.min.js"></script>
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/modernizr/modernizr.custom.js"></script>
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/bootstrap.js"></script>
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/z-nav/jquery.mobile.menu.js"></script>
+			
+			<!-- Error: Mismatched anonymous define() module
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/swiper/idangerous.swiper.js"></script>
+			-->
+			
+			<!-- Error: get-tweets1.1.php 404 (Not Found)
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/twitterfeed/twitterfeed.js"></script>
+			-->
 
-		<script>
-			$(document).ready(function () {
-				staffSlider();
-				scrollSlider();
+			<!-- Error: Mismatched anonymous define() module
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/scrollto/jquery.scrollTo.min.js"></script>
+			-->
 
-				$('.about ').one('inview', function (event, visible) {
-					if (visible == true) {
-						$('.about-img').addClass('fadeInUp');
-					}
+			<!-- Error: Mismatched anonymous define() module
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+			-->
+
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/inview/jquery.inview.js"></script>
+
+			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/custom.js"></script>
+
+			<script>
+				$(document).ready(function () {
+					if ($.fn.swiper)
+						staffSlider();
+					if ($.fn.mCustomScrollbar)
+						scrollSlider();
+
+					$('.about ').one('inview', function (event, visible) {
+						if (visible == true) {
+							$('.about-img').addClass('fadeInUp');
+						}
+					});
 				});
-			});
-		</script>
+			</script>
+			<!--
+			-->
 		</form>
-
 	</body>
 </html>
