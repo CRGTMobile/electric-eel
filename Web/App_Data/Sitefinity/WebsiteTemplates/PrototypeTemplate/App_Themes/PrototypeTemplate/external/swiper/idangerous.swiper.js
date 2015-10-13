@@ -2788,6 +2788,7 @@ if (window.jQuery || window.Zepto) {
     })(window.jQuery || window.Zepto);
 }
 
+/* Error: Mismatched anonymous define() module
 // component
 if (typeof(module) !== 'undefined')
 {
@@ -2800,4 +2801,18 @@ if (typeof define === 'function' && define.amd) {
         'use strict';
         return Swiper;
     });
+}
+*/
+
+/*===========================
+Swiper AMD Export
+===========================*/
+if (typeof (module) !== 'undefined') {
+	module.exports = window.Swiper;
+}
+else if (typeof define === 'function' && define.amd) {
+	define([], function () {
+		'use strict';
+		return Swiper;
+	});
 }
