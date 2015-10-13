@@ -158,47 +158,49 @@
 	
 			</div>
 		
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/waypoint/waypoints.min.js"></script>
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/modernizr/modernizr.custom.js"></script>
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/bootstrap.js"></script>
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/z-nav/jquery.mobile.menu.js"></script>
-			
-			<!-- Error: Mismatched anonymous define() module
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/swiper/idangerous.swiper.js"></script>
-			-->
-			
-			<!-- Error: get-tweets1.1.php 404 (Not Found)
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/twitterfeed/twitterfeed.js"></script>
-			-->
-
-			<!-- Error: Mismatched anonymous define() module
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/scrollto/jquery.scrollTo.min.js"></script>
-			-->
-
-			<!-- Error: Mismatched anonymous define() module
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-			-->
-
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/inview/jquery.inview.js"></script>
-
-			<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/custom.js"></script>
-
-			<script>
-				$(document).ready(function () {
-					if ($.fn.swiper)
-						staffSlider();
-					if ($.fn.mCustomScrollbar)
-						scrollSlider();
-
-					$('.about ').one('inview', function (event, visible) {
-						if (visible == true) {
-							$('.about-img').addClass('fadeInUp');
-						}
-					});
-				});
-			</script>
-			<!--
-			-->
 		</form>
+		<script>
+			window.jQuery || document.write('<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/jquery/jquery-1.10.1.min.js"><\/script>')
+		</script>
+
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/waypoint/waypoints.min.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/modernizr/modernizr.custom.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/bootstrap.js"></script>
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/z-nav/jquery.mobile.menu.js"></script>
+			
+		<!-- Error: Mismatched anonymous define() module
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/swiper/idangerous.swiper.js"></script>
+		-->
+			
+		<!-- Error: get-tweets1.1.php 404 (Not Found)
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/twitterfeed/twitterfeed.js"></script>
+		-->
+
+		<!-- Error: Mismatched anonymous define() module
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/scrollto/jquery.scrollTo.min.js"></script>
+		-->
+
+		<!-- Error: Mismatched anonymous define() module
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+		-->
+
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/external/inview/jquery.inview.js"></script>
+
+		<script src="/Sitefinity/WebsiteTemplates/PrototypeTemplate/App_Themes/PrototypeTemplate/js/custom.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				if ($.fn.swiper)
+					staffSlider();
+				if ($.fn.mCustomScrollbar)
+					scrollSlider();
+
+				$('.about ').one('inview', function (event, visible) {
+					if (visible == true) {
+						$('.about-img').addClass('fadeInUp');
+					}
+				});
+			});
+		</script>
 	</body>
 </html>
