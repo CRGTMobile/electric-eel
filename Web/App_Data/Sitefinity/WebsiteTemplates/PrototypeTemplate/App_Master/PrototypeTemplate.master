@@ -117,6 +117,68 @@
 			.sfWorkflowBtnsShown .header {
 				margin-bottom: 43px;
 			}
+            /*-- Registration Button --*/
+            .registrationButton > div:first-child{
+                display:none;
+            }
+            .registrationButton li a{
+                /* .btn-decorated */
+                 position: relative;
+                  z-index: 20;
+                  padding: 15px 37px 12px 37px;
+                  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+                  color: #ffffff;
+                  -webkit-transition: all 300ms ease-in;
+                  -o-transition: all 300ms ease-in;
+                  transition: all 300ms ease-in;
+                  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+                  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+                  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+                  
+                  /* .btn-warning */
+                  background-color: #fed37f;
+                  border-color: #eea236;
+
+                  /* .btn */
+                  font: 18px 'Varela Round', sans-serif;
+                  line-height: 100% !important;
+                  display: inline-block;
+                  border: none;
+                  -webkit-border-radius: 25px;
+                  -moz-border-radius: 25px;
+                  border-radius: 25px;
+                      margin-bottom: 0;
+                        text-align: center;
+                    vertical-align: middle;
+                    touch-action: manipulation;
+                    cursor: pointer;
+                    background-image: none;
+                        white-space: nowrap;
+                            -webkit-user-select: none;
+            }
+            .registrationButton li a:hover{
+                -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        background-color: #e6bf73;
+            color: #ffffff;
+                border-color: #d58512;
+                    outline: none;
+            }
+
+            .registrationButton li a:before{
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                    width: 100%;
+                    height: 50%;
+                    background-color: rgba(0, 0, 0, 0.05);
+                    -webkit-border-radius: 0 0 25px 25px;
+                    -moz-border-radius: 0 0 25px 25px;
+                    border-radius: 0 0 25px 25px;
+            }
 		</style>
 	</head>
 	<body>
