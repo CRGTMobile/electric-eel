@@ -826,6 +826,7 @@
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\classic-loader.gif" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\classic-map.png" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\events\webinar\508.jpg" />
+    <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\events\webinar\businesspeople.jpg" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\events\webinar\education.jpg" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\events\webinar\technology3.png" />
     <Content Include="App_Data\Sitefinity\WebsiteTemplates\PrototypeTemplate\App_Themes\PrototypeTemplate\Images\events\webinar\webinar.jpg" />
